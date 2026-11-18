@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Контакты · СТИМУЛ-С</title>
+<meta name="description" content="Телефон и заявка на расчёт облицовки дагестанским камнем.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Onest:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="hdr">
+  <div class="wrap">
+    <a class="logo" href="index.html" aria-label="СТИМУЛ-С, главная"><i><b></b><b></b><b></b><b></b></i><span>СТИМУЛ-С<small>дагестанский камень</small></span></a>
+    <nav class="nav" aria-label="Разделы"><a href="uslugi.html">Услуги</a><a href="kamen.html">Камень</a><a href="o-kompanii.html">О компании</a><a href="kontakty.html" aria-current="page">Контакты</a></nav>
+    <div class="hdr-right">
+      <a class="hdr-phone" href="tel:+79258090999">+7 925 809-09-99</a>
+      <a class="btn btn-sm" href="kontakty.html">Заявка</a>
+      <button class="burger" type="button" aria-label="Меню" aria-expanded="false"><span></span></button>
+    </div>
+  </div>
+</header>
+<main>
+<section class="ph">
+  <div class="wrap">
+    <nav class="crumbs" aria-label="Навигация"><a href="index.html">Главная</a><span>/</span><span>Контакты</span></nav>
+    <h1>Контакты</h1>
+    <p>Позвоните или оставьте заявку. Ответим на вопросы, покажем образцы и подготовим расчёт по вашему объекту.</p>
+  </div>
+</section>
+<section class="sec">
+  <div class="wrap contact">
+    <div class="c-col">
+      <dl class="c-list">
+        <div><dt>Телефон</dt><dd><a class="c-big" href="tel:+79258090999">+7 925 809-09-99</a><button class="copy" type="button">Копировать</button></dd></div>
+        <div><dt>Регион работ</dt><dd>Москва и Московская область</dd></div>
+        <div><dt>На карте</dt><dd><a href="https://yandex.ru/maps/org/rashidstroy/15438129561/?ll=38.048163%2C55.611939&amp;z=16" target="_blank" rel="noopener">Открыть в Яндекс Картах ↗</a></dd></div>
+        <div><dt>Компания</dt><dd>СТИМУЛ-СТРОЙ</dd></div>
+      </dl>
+      <div class="prep">
+        <h3>Что подготовить для расчёта</h3>
+        <ul class="ticks">
+          <li>Проект дома или фотографии фасадов</li>
+          <li>Примерную площадь облицовки</li>
+          <li>Какие работы нужны: фасад, цоколь, декор</li>
+          <li>Пожелания по оттенку и обработке камня</li>
+          <li>Адрес объекта и желаемые сроки</li>
+        </ul>
+      </div>
+    </div>
+    <form class="req" novalidate>
+      <h2>Заявка на расчёт</h2>
+      <p class="small">Заполните форму, и мы свяжемся с вами, чтобы уточнить детали.</p>
+      <div class="row2">
+        <div class="field"><label for="f-name">Имя</label><input id="f-name" name="name" autocomplete="name"></div>
+        <div class="field"><label for="f-phone">Телефон</label><input id="f-phone" name="phone" type="tel" autocomplete="tel" placeholder="+7"></div>
+      </div>
+      <p class="err" hidden>Укажите номер телефона, чтобы мы могли перезвонить.</p>
+      <div class="field"><label for="f-work">Услуга</label>
+        <select id="f-work" name="work"><option>Облицовка фасада</option><option>Цоколь из камня</option><option>Декор фасада</option><option>Внутренняя отделка</option><option>Мощение природным камнем</option><option>Нужна консультация</option></select></div>
+      <div class="field"><label for="f-msg">Об объекте</label><textarea id="f-msg" name="msg" placeholder="Площадь, адрес, сроки"></textarea></div>
+      <div><button class="btn" type="submit">Отправить заявку</button></div>
+      <div class="ok" hidden></div>
+    </form>
+  </div>
+</section>
+
+</main>
+<footer class="ftr">
+  <div class="wrap">
+    <div class="cols">
+      <div><a class="logo" href="index.html"><i><b></b><b></b><b></b><b></b></i><span>СТИМУЛ-С<small>дагестанский камень</small></span></a>
+        <p>Поставка дагестанского камня и облицовка фасадов под ключ.</p></div>
+      <div><h4>Разделы</h4><ul><li><a href="uslugi.html">Услуги</a></li><li><a href="kamen.html">Камень</a></li><li><a href="o-kompanii.html">О компании</a></li><li><a href="kontakty.html">Контакты</a></li></ul></div>
+      <div><h4>Связь</h4><ul><li><a href="tel:+79258090999">+7 925 809-09-99</a></li><li>Москва и область</li></ul></div>
+    </div>
+    <div class="bottom"><span>© <span data-year>2026</span> СТИМУЛ-С · СТИМУЛ-СТРОЙ</span><span>Природный камень из Дагестана</span></div>
+  </div>
+</footer>
+<script src="assets/stone.js"></script>
+<script src="assets/three.min.js"></script>
+<script src="assets/three-scene.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>
